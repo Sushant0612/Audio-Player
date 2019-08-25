@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Music Player App</string>
+
+    <string name="main_activity_description">This screen displays all songs and albums. All songs and albums are clickable. Also there is 4-dot menu on top right corner for other actions. I have used support desgn library and data binding library heavily in this app. </string>
+    <string name="menu">Menu</string>
+    <string name="repeat">Repeat</string>
+    <string name="play">Play</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="favorite">Added to favorites</string>
+    <string name="playlist">Playlist</string>
+    <string name="buy">Buy subscription</string>
+    <string name="about">About</string>
+
+    <string name="developed_by">Developed by : Sushant Madhukar</string>
+    <string name="playing">Now Playing</string>
+    <string name="ok">OK</string>
+    <string name="play_title">Description</string>
+    <string name="play_desc">This screen might use MediaPlayer, AudioManager, MediaSessionCompat, MediaButtonReciever, PlaybackStateCompat, NotificationCompat, MediaControllerCompat, MediaBrowserService</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login_summary">I used predefined Android studio Login Activity,in this Login Activity user can logging their account by entering email and password and their is also a "SignUp" option for new user</string>
+    <string name="payment_summary">When the user clicks on arrow image then login activity will open to access user account. If user is already logged in then Login Activity will skip and continue to the payment gateway(payment gateway may be different on selected option) in which user feed their confidential informations. After successful transaction user can get full access of application.</string>
+    <string name="volume_summary">Volume UP/DOWN</string>
+    <string name="about_desc">This activity is to list the developer info, app info like open source library used, current version. Also email id to report any bugs or provide feedback</string>
+
+    <!-- Payment summary-->
+    <string name="steps">1. I will use Android Pay API to process payments.\n
+        \n2. For this I will first add dependency in project\'s build.gradle file.
+        \n\n3. Modification in manifest file is also needed for this api.
+        \n\n4. When the user clicks on Buy button first thing the app will check is if the user have Android Pay app installed.
+        \n\n5. If the app is installed, request a payment token. There are two types of token network token and payment gateway token.
+        \n\n6. Now to request wallet information I will create Masked Wallet Request.
+       \n\n7. WalletFragment is also needed to be added to automate the process of purchasing.
+       \n\n8. When user tap on Buy with Android Pay in the Wallet fragment a intent will start and result will be catched in onActivityResult() callback.
+    \n\n9. From that result we can determine whether the transaction was successful or not.</string>
+    <string name="title_activity_payment">Buy Subscription</string>
+
+</resources>
